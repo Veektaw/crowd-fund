@@ -1,0 +1,16 @@
+{
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": false,
+    "overrides": [
+        {
+            "files": "*.ts",
+            "options": {
+                "singleQuote": false,
+                "semi": true,
+                "tabWidth": 4
+            }
+        }
+    ]
+}

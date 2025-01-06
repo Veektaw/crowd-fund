@@ -1,0 +1,55 @@
+yarn add --dev hardhat  
+
+yarn hardhat
+
+yarn add --dev solhint    
+
+yarn solhint
+
+yarn add --dev @chainlink/contracts
+
+yarn hardhat compile
+
+yarn add --dev hardhat-deploy
+
+yarn add --dev solidity-coverage
+
+yarn add --dev hardhat-gas-reporter
+
+yarn add --dev mocha@10
+
+yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
+
+yarn hardhat deploy
+
+
+
+
+
+
+❯ yarn hardhat deploy --network sepolia
+
+yarn run v1.22.21
+$ '/Users/macbook/Desktop/Return of the mac/Web3/fundMe-contract/node_modules/.bin/hardhat' deploy --network sepolia
+Generating typings for: 6 artifacts in dir: typechain-types for target: ethers-v6
+Successfully generated 30 typings!
+Compiled 7 Solidity files successfully (evm targets: istanbul, paris).
+Starting mock deploy script...
+Network name: sepolia
+Development chains: [ 'hardhat', 'localhost' ]
+Not a development chain, skipping mocks
+------------------------------------------------
+Main fundMe deployment running...
+----------------------------------------------------
+Deploying FundMe and waiting for confirmations...
+deploying "FundMe" (tx: 0x6480c9ef048f07b36d5e456bac15c0860b2b9a1b7a62246719bc6836f8f7efeb)...: deployed at 0x8C3Ba32886d1eC54d766988f25A781837aC29a1a with 827572 gas
+FundMe deployed at 0x8C3Ba32886d1eC54d766988f25A781837aC29a1a
+Verifying contract...
+Successfully submitted source code for contract
+contracts/FundMe.sol:FundMe at 0x8C3Ba32886d1eC54d766988f25A781837aC29a1a
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract FundMe on the block explorer.
+https://sepolia.etherscan.io/address/0x8C3Ba32886d1eC54d766988f25A781837aC29a1a#code
+
+✨  Done in 99.75s.
