@@ -23,7 +23,7 @@ yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
 yarn hardhat deploy
 
 
-
+yarn hardhat run scripts/fund.ts --network localhost
 
 
 
